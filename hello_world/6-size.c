@@ -6,9 +6,9 @@
  *
  * Return: Always 0 (Success
  */
-int main(void)
+int main()
 {
-	char charSize
+	char charSize;
 	int intSize;
 	long int longIntSize;
 	long long int longLongSize;
