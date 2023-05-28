@@ -8,18 +8,19 @@
  */
 int main(void)
 {
-	char ch
+	char ch = 'a';
+	char chCAP = 'A';
 
-	for (ch = 'a' ; ch <= 'z'; ch++)
+	for ( ; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
 
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
+	for ( ; chCAP <= 'Z' ; chCAP++)
 	{
-		putchar(ch);
+		putchar(chCAP);
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
