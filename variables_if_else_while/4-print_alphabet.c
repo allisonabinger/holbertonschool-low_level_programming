@@ -12,10 +12,9 @@ int main(void)
 
 	for ( ; ch <= 'z' ; ch++)
 	{
-		if ( ch != 'q') || ( ch != 'e' )
+		if (ch != 'e' || 'q')
 			putchar(ch);
 	}
 	putchar('\n');
-	
-	return(0);
+	return (0);
 }
