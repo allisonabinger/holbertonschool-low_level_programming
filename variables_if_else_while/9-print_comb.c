@@ -16,8 +16,8 @@ int main(void)
 		if (n < 9)
 		{
 			putchar(44);
-			putchat(32);
+			putchar(32);
 		}
 	}
-	return (0)
+	return (0);
 }
