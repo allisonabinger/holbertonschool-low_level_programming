@@ -3,4 +3,4 @@ git add .
 read -p "Commit Description: " msg
 git commit -m "$msg"
 git push
-echo '\nSweet! Let's hope it works\n'
+printf("\nSweet! Let's hope it works\n")
