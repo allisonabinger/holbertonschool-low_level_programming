@@ -13,7 +13,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if ((n % 5) == 0)
+		if ((n % 5) == 0)
 		{
 			printf("Buzz ");
 		}
