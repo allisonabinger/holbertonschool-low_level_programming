@@ -3,6 +3,7 @@
  * @str: string name
  * Return: always 0 (success)
  */
+#include <stdio.h>
 void _puts(char *str)
 {
 	int i;
