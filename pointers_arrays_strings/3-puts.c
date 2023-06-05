@@ -1,9 +1,10 @@
+#include "main.h"
+#include <stdio.h>
 /**
  * _puts - prints the string, followed by new line, to the stdout
  * @str: string name
  * Return: always 0 (success)
  */
-#include <stdio.h>
 void _puts(char *str)
 {
 	int i;
