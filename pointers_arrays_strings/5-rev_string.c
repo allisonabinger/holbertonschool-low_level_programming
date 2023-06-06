@@ -14,7 +14,7 @@ void rev_string(char *s)
 	/* temp will be the temporary variable used to swap in the for loop */
 	char temp;
 
-	while (s[a] < '\0')
+	while (s[a] != '\0')
 	{
 		a++;
 	}
@@ -28,9 +28,9 @@ void rev_string(char *s)
 	{
 		temp = s[i];
 
-		s[i] = s[a - i];
+		s[i] = s[a - i - 1];
 
-		s[a - i] = temp;
+		s[a - i - 1] = temp;
 	}
 }
 
