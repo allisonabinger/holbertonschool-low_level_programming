@@ -9,6 +9,6 @@ void print_array(int *a, int n)
 {
 	for (; a[n] != '\0'; n++)
 	{
-		_putchar(str[n]);
+		_putchar(a[n]);
 	}
 }
