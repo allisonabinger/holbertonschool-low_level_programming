@@ -5,7 +5,7 @@
  * @n: number of elements of the array to be printed
  * Return: n elements 
  */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	for (; a[n] != '\0'; n++)
 	{
