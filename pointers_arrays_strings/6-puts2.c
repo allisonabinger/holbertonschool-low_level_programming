@@ -5,7 +5,7 @@
  * @s: string input for the function
  * Return: Empty (output of function)
  */
-void puts2(char *s)
+void puts2(char *str)
 {
 	int a = 0;
 
