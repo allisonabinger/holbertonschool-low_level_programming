@@ -4,6 +4,7 @@
  * @dest: destination string
  * @src: source string to copy into dest
  * @n: the amount of bytes to copy
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -14,7 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 		i++;
 	}
-	
+
 	while (i < n)
 	{
 		dest[i] = '\0';
