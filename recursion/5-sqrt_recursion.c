@@ -8,11 +8,11 @@ int _result_sqrt_rec(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-        if (n < 0)
-        {
-                return (-1);
-        }
-        return (_result_sqrt_rec(n, 0));
+	if (n < 0)
+	{
+		return (-1);
+	}
+	return (_result_sqrt_rec(n, 0));
 }
 
 /**
