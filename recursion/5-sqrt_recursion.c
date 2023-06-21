@@ -25,5 +25,5 @@ int _result_sqrt_rec(int n, int i)
 		return (-1);
 	if (i * i == n)
 		return (i);
-	return (_result_sqrt_recursion(n, i + 1));
+	return (_result_sqrt_rec(n, i + 1));
 }
