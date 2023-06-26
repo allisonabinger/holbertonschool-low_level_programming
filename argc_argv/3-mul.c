@@ -6,12 +6,15 @@
  * @argv: array of arguments
  * Return: 0
  */
-int main(int argc, char *argv[])
+unsigned int main(int argc, char *argv[])
 {
 	if (argc != 2)
-		return (Error);
+	{
+		printf("Error");
+		return (1);
 	else
 	{
-		return ((argv[1]) * (argv[2]));
+		printf("%x\n", (argv[1]) * (argv[2]);
 	}
+	return (0);
 }
