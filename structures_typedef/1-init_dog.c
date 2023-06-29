@@ -5,11 +5,11 @@
  * @d: pointer to a struct dog to initialize
  * @name: name of the dog, string
  * @age: age to initialize, float
- * @owner, owner to initialize, string
+ * @owner: owner to initialize, string
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL) 
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
