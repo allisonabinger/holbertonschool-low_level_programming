@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * mul - function
+ * main - function
  * @argc: number of inputs
  * @argv: inputs to multiply
  * Return: Always 0 (success)
  */
-int mul(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 
 	int result;
