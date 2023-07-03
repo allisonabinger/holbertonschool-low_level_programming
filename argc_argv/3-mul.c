@@ -1,7 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
-int mul(int argc, char *argv[]){
-	
+/**
+ * mul - function
+ * @argc: number of inputs
+ * @argv: inputs to multiply
+ * Return: Always 0 (success)
+ */
+int mul(int argc, char *argv[])
+{
+
 	int result, i;
 
 	if (argc < 2)
@@ -10,7 +17,7 @@ int mul(int argc, char *argv[]){
 		return (1);
 	}
 
-	result = (atoi(argv[1]))*(atoi(argv[2]));
+	result = (atoi(argv[1])) * (atoi(argv[2]));
 
 	printf("%d\n", result);
 
