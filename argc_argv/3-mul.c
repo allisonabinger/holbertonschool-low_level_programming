@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-void mul(int argc, char *argv[]){
+int mul(int argc, char *argv[]){
 	
 	int result, i;
 
