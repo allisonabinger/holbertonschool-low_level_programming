@@ -9,7 +9,7 @@
 int mul(int argc, char *argv[])
 {
 
-	int result, i;
+	int result;
 
 	if (argc < 2)
 	{
