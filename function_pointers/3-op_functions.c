@@ -40,7 +40,7 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 
-/** 
+/**
  * op_div - returns a divided by b
  * @a: first integer
  * @b: second integer
