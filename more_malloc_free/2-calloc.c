@@ -9,7 +9,7 @@
  * Return: If nmemb or size is 0, or if malloc fails, return NULL
  * else, return pointer to allocated memory
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *mem;
 	char *filler;
