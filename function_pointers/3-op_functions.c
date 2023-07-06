@@ -40,10 +40,10 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 
-/** op_div - returns a / b
+/** op_div - returns a divided by b
  * @a: first integer
  * @b: second integer
- * Return: a/b
+ * Return: a divided by b
  */
 int op_div(int a, int b)
 {
@@ -51,7 +51,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - returns remainder of a / b
+ * op_mod - returns remainder of a divided by b
  * @a: first integer
  * @b: second integer
  * Return: a % b
