@@ -3,10 +3,9 @@
 #include "main.h"
 void print_binary(unsigned long int n)
 {
-	int i;
-
-	for (i = 31; i >= 0; i--)
+	while (n > 0)
 	{
-	  printf("%d", (n & (1 << i)) ? 1 : 0);
-  }
+		printf(%d, n & 1);
+		n >>=1;
+	}
 }
