@@ -10,13 +10,14 @@ size_t print_list(const list_t *h)
 {
 	size_t c = 0;
 
-	if (h == NULL)
+	if (!h->str)
 		printf("[0] (nil)\n");
-	while (h != NULL)
-	{
-		printf("[%u] %s\n", h->len, h->str);
-		h = h->next;
-		c++;
+	else	
+		while (h != NULL)
+		{
+			printf("[%u] %s\n", h->len, h->str);
+			h = h->next;
+			c++;
+		}
+		return (c);
 	}
-	return (c);
-}
