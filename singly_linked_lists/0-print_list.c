@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lists.h"
 /**
  * print_list - prints all the elements of a list_t list
  * @h: head pointer
@@ -11,7 +12,7 @@ size_t print_list(const list_t *h)
 
 	if (h == NULL)
 		printf("[0] (nil)\n");
-	while (ptr != NULL)
+	while (h != NULL)
 	{
 		printf("[%u] %s\n, h->, h->str);
 		h = h->next;
