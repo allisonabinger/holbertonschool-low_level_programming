@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <stddef.h> 
 /**
  * dlistint_len - function that returns the number of elements in a linked list
  * @h: pointer to the head of list
