@@ -22,7 +22,7 @@ void print_array(int array[], size_t left, size_t right)
 }
 
 /**
-* binary-search - searches for value in sorted array
+* binary_search - searches for value in sorted array
 * @array: pointer to first element
 * @size: size of array
 * @value: integer to find
