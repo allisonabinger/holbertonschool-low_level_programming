@@ -2,7 +2,7 @@
 #define SEARCH_H
 
 #include <stdio.h>
-#include <stdef.h>
+#include <stddef.h>
 #include <stdlib.h>
 
 int linear_search(int *array, size_t size, int value);
